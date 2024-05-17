@@ -16,6 +16,7 @@ function displayCountries(countries) {
   countries.forEach((country) => {
     content += `
       <tr>
+        <td><span class="flag flag-${country.iso2.toLocaleLowerCase()}"></span></td>
         <td>${country.name}</td>
         <td>${country.iso3}</td>
         <td>${country.iso2}</td>
@@ -26,7 +27,9 @@ function displayCountries(countries) {
             <button class="btn btn-info" onclick="editCountry(${country.id})">
                 <i class="bi bi-pencil-square"></i>
             </button>
-            <button class="btn btn-danger" onclick="deleteCountry(${country.id})">
+            <button class="btn btn-danger" onclick="deleteCountry(${
+              country.id
+            })">
                 <i class="bi bi-trash-fill"></i>
             </button>
         </td>
