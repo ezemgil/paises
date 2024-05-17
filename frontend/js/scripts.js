@@ -1,5 +1,5 @@
 const PORT = 3000;
-const apiURL = `http://localhost:${PORT}/api/v1`;
+const apiURL = `http://localhost:${PORT}`;
 
 const getCountries = () => {
   fetch(`${apiURL}/countries`)
