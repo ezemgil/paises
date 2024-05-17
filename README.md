@@ -9,13 +9,6 @@ Este proyecto surge como parte de una evaluación sumativa para la materia "Desa
 - El frontend no utiliza ningún framework, excepto la librería de Bootstrap 5 para facilitar la comunicación con el backend.
 - Las tecnologías utilizadas incluyen HTML, CSS (con Bootstrap), JS, Express, SQLite3, CORS y Sequelize.
 
-## Instalación
-
-1. Clona este repositorio en tu máquina local.
-2. Navega hasta la carpeta del proyecto.
-3. Ejecuta `npm install` para instalar las dependencias.
-4. Ejecuta `npm start` para iniciar el servidor.
-
 ## Uso
 
 - Para instalar las dependencias, ejecuta la siguiente línea de comandos:
