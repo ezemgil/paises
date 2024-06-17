@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors());
 
 // Routes
-app.use("/countries", countryRouter);
+app.use("/api/countries", countryRouter);
 
 // Start the server
 (async function start() {
